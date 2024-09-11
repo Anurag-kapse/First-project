@@ -1,0 +1,9 @@
+.navbar{
+ margin-bottom: 10px;
+}
+.headings,.para{
+    padding-inline: 10px;
+}
+.para{
+    color: rgb(88, 88, 88);
+}

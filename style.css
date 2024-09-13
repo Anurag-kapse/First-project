@@ -37,6 +37,10 @@ html,body{
 .nav-cont{
     width: 100%;
 }
+.login-btn{
+    margin: 10px;
+    width: 90%;
+}
 .search-bar{
     width: 100%;
     height: 40px;
@@ -148,10 +152,6 @@ html,body{
 }
 
 
-
-
-
-
 /* ================================================================================================ */
 
 @media (min-width: 768px){
@@ -164,14 +164,14 @@ html,body{
     .nav-link{
         font-size: 1.4rem;
     }
+    .login-btn{
+        width: 50%;
+    }
     .magnifying-glass{
         font-size: 1.5rem;
     }
     .search::placeholder{
         font-size: 1.5rem;
-    }
-    .video-sec{
-        /* display: none; */
     }
     .v-heading{
         font-size: 1.5rem;
@@ -228,6 +228,10 @@ html,body{
     .nav-link:hover::after{
         width: 100%;
     }
+    .login-btn{
+        width: 140%;
+        margin: 5px  0 0 0;
+    }
     .search-bar{
         width: 35%; 
     }
@@ -256,6 +260,12 @@ html,body{
         margin-inline: 8px; 
         flex-shrink: 0;
     }
+    .item-conts img{
+        transition: 0.2s ease;
+    }
+    .item-conts:hover img{
+        opacity: 0.6;
+    }
     .product-details{
         font-size: 1.4rem;
     }
@@ -267,10 +277,10 @@ html,body{
         height: 40%;
     }
     .footer-heading{
-        font-size: 1.3rem;
+        font-size: 1.2rem;
     }
     .footer-links{
-        font-size: 1.2rem;
+        font-size: 1.1rem;
     }
     .footer-links:hover{
         outline: 1px solid white;

@@ -1,0 +1,19 @@
+.form{
+    height: 75%;
+}
+.input{
+    background-color: black;
+    border-bottom: 2px solid white;
+    color: white;
+}
+.input::placeholder{
+    color: white;
+}
+
+/* ============================================================================================ */
+@media (min-width: 1024px) {
+    .form{
+        height: 90%;
+        width: 45%;
+    }
+}

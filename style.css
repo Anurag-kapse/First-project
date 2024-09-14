@@ -25,7 +25,6 @@ html,body{
 .logo-img{
     height: 100%;
     width: 100px;
-    /* outline: 2px solid rgb(255, 255, 255); */
 }
 .icon-cont{
   border: none;
@@ -46,7 +45,6 @@ html,body{
     height: 40px;
     display: flex;
     margin-block: 8px;
-    /* outline: 2px solid rgb(255, 255, 255); */
 }
 .magnifying-glass{
     height: 100%;
@@ -91,7 +89,6 @@ html,body{
 .shop-sec-heading{
     font-size: 1.5rem;
     font-weight: 600;
-    /* margin-block: 10px; */
 }
 .item-conts{
     height: 350px;

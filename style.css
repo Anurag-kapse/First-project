@@ -211,7 +211,7 @@ html,body{
         bottom: 0;
     }
     .product-details{
-        font-size: 1.6rem;
+        font-size: 1.5rem;
     }
     .footer-heading{
         font-size: 2rem;
@@ -292,7 +292,7 @@ html,body{
         opacity: 0.6;
     }
     .product-details{
-        font-size: 1.4rem;
+        font-size: 1.3rem;
     }
     .footer{
         display: flex;

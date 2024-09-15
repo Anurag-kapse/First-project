@@ -1,0 +1,81 @@
+.form{
+    height: 55%;
+    gap: 10px;
+}
+.heading-block{
+    gap: 8px;
+}
+.para{
+    color: darkgray;
+    position: relative;
+    top: 8px;
+    
+}
+.mail-add-block{
+    width: 100%;
+    padding: 5px;
+}
+.input-cont{
+    height: 40px;
+    width: 100%;
+    align-self: center;
+}
+.input-box{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+    outline: none;
+    padding-left: 10px;
+}
+.b-w{
+    width: 100%;
+}
+.btn{
+    width: 100%;
+}
+.link{
+    position: relative;
+    top: 30px;
+}
+
+/* ======================================================================================================== */
+
+@media(min-width: 768px){
+
+    .form{
+        justify-content: space-around;
+        height: 33%;
+        width: 75%;
+    }
+    .para{
+        font-size: 1.2rem;
+    }
+
+}
+
+
+/* ======================================================================================================== */
+
+@media(min-width: 1024px){
+
+    .form{
+        justify-content: center;
+        gap: 20px;
+        height: 80%;
+        width: 40%
+    }
+    .para{
+        font-size: 1.1rem;
+        width: 80%;
+    }
+    /* .input-cont{
+        width: 60%;
+    } */
+
+    .mail-add-block{
+        width: 75%;
+    }
+}

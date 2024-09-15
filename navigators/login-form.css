@@ -23,6 +23,10 @@ html,body,.main-cont,.form{
     font-weight: 500;
     color: white;
 }
+.al{
+    align-self: flex-start;
+    color: white;
+}
 .input-fields{
     width: 90%;
 }
